@@ -279,7 +279,7 @@ int screen(t_data *data)
 
 	draw_ondulation_rosace(data, WINX/2, WINY/2, 150, t);
 	// draw_trippy_rosaces(data, t);
-	// draw_ondulation(data, t, WINX/3, WINY/3);
+	draw_ondulation(data, t, WINX/2, WINY/2);
 	// draw_ondulation(data, t, 2*WINX/3, 2*WINY/3);
 	// draw_ondulation(data, t, WINX/3, 2*WINY/3);
 	// draw_ondulation(data, t, 2*WINX/3, WINY/3);
